@@ -1,4 +1,4 @@
-package com.example.demo.flight;
+package com.example.secureapi.flight;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,5 +1,8 @@
-package com.example.demo.flight;
+package com.example.secureapi.flight;
 
+import lombok.Data;
+
+@Data
 public class Flight {
 
     private final Integer flightId;
@@ -11,11 +14,4 @@ public class Flight {
         this.flightDestination = flightDestination;
     }
 
-    public Integer getFlightId() {
-        return flightId;
-    }
-
-    public String getFlightDestination() {
-        return flightDestination;
-    }
 }
